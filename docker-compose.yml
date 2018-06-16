@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  1.26-ubuntu18:
+    build:
+      context: ./ubuntu-18
+      dockerfile: ../Dockerfile
+      args:
+        RUST_VERSION: 1.26.2
+        BUILDER_VERSION: ubuntu18
+    image: odaceo/rust:1.26-ubuntu18
