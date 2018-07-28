@@ -8,5 +8,5 @@ services:
       dockerfile: ../Dockerfile
       args:
         BUILDER_VERSION: ubuntu18
-        RUST_VERSION: '1.27.0'
+        RUST_VERSION: '1.27.1'
     image: odaceo/rust:1.27-ubuntu18
