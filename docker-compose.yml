@@ -2,11 +2,11 @@ version: '3'
 
 services:
 
-  1.26-ubuntu18:
+  1.28-ubuntu18:
     build:
       context: ./ubuntu-18
       dockerfile: ../Dockerfile
       args:
         BUILDER_VERSION: ubuntu18
-        RUST_VERSION: '1.27.1'
-    image: odaceo/rust:1.27-ubuntu18
+        RUST_VERSION: '1.28.0'
+    image: odaceo/rust:1.28-ubuntu18
